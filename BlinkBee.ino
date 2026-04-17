@@ -1,3 +1,5 @@
+#define LOW HIGH
+#define HIGH LOW
 
 void setup()
 {
@@ -77,6 +79,6 @@ void loop()
   // that bees, as a species, haven't had one day off
   // in 27 million years. So you'll just work us to
   // death? We'll sure try.
-  digitalWrite(12, HIGH);
+  digitalWrite(12, LOW);
   delay(10); 
 }
