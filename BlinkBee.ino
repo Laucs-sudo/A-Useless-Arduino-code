@@ -1,12 +1,13 @@
-#define LOW HIGH
-#define HIGH LOW
-
-void setup()
+#define BEE HIGH
+#define MOVIE LOW
+#define laucs setup
+#define what loop
+void laucs()
 {
   pinMode(12, OUTPUT);
 }
 
-void loop()
+void what()
 {
   // According to all known laws of aviation, there
   // is no way a bee should be able to fly. Its wings
@@ -79,6 +80,6 @@ void loop()
   // that bees, as a species, haven't had one day off
   // in 27 million years. So you'll just work us to
   // death? We'll sure try.
-  digitalWrite(12, LOW);
+  digitalWrite(12, BEE);
   delay(10); 
 }
